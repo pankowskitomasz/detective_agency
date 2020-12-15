@@ -1,4 +1,8 @@
+$aboutBusiness: "../img/services/bg-business.jpg";
+$aboutGeneral: "../img/about/bg-general.jpg";
+$aboutGeneralExt: "../img/about/bg-general-ext.jpg";
 $bg__blend--soft: soft-light;
+$bg__blend--multiply: multiply;
 $bg__classes:
     "error",
     "comingsoon",
@@ -18,11 +22,19 @@ $color__bg-1: #333;
 $color__container-bg: #fff;
 $color__shadow: #000;
 $color__white: #fff;
+$contact__bg: "../img/contact/contact-bg.png";
+$contactForm: "../img/contact/contact-form.jpg";
+$contactTop: "../img/contact/bg-top.jpg";
 $font-logo__family: 'Arial';
 $font-logo__size: 24px;
 $font-main__family: 'Arial';
 $font-main__size: 16px;
 $header__height: 0px;
-$padding__header: 60px;
+$icon-big__size: 75px;
+$navbar-collapse__backdrop: blur(20px);
+$navbar-collapse__border: 1px solid #333;
+$navbar-collapse__zindex: 100;
+$padding__header: 75px;
 $section__min-height: 100vh;
+$servicesExt: "../img/services/bg-services-ext.jpg";
 $text__shadow: 1px 1px 4px $color__shadow;

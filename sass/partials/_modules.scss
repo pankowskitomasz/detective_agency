@@ -13,10 +13,36 @@
     @extend %bg-blend;
     @include calc-param(min-height, $section__min-height, $header__height);
 }
-
+.about{
+    &-business{
+        @include background-blend($bg__blend--soft, $color__bg-1);
+        @include set-background($aboutBusiness,0,"center","cover","scroll");
+    }
+    &-general{
+        &-ext{
+            @include background-blend($bg__blend--soft, $color__bg-1);
+            @include set-background($aboutGeneralExt,0,"center","cover","fixed");            
+        }
+        @include background-blend($bg__blend--soft, $color__bg-1);
+        @include set-background($aboutGeneral,0,"center","cover","scroll");
+    }
+}
 .comingsoon{
     &-s1{
         @extend %bg-tmp;
+    }
+}
+.contact{
+    &-bg{
+        @include set-background($contact__bg,0,"center","cover","scroll");
+    }
+    &-form{
+        @include background-blend($bg__blend--multiply, $color__bg-1);
+        @include set-background($contactForm,0,"center","cover","scroll");         
+    }
+    &-top{
+        @include background-blend($bg__blend--multiply, $color__bg-1);
+        @include set-background($contactTop,0,"center","cover","scroll"); 
     }
 }
 .decoration{
@@ -37,17 +63,49 @@
         @include set-font-params($font-main__family,$font-main__size);
     }
 }
+.h{
+    &-50vh{
+        height:50vh;
+    }
+    &-100vh{
+        height:100vh;
+    }
+}
+.icon{
+    &-big{
+        font-size: $icon-big__size !important;
+    }
+}
 .minh{
+    &-25vh{
+        min-height: 25vh;
+    }
     &-50vh{
         min-height: 50vh;
+    }
+    &-75vh{
+        min-height: 75vh;
     }
     &-100vh{
         min-height: 100vh;
     }
 }
+.fit{
+    &-cover{
+        object-fit: cover;
+    }
+}
+.opacity{
+    &-7{
+        opacity: 0.7;
+    }
+    &-8{
+        opacity: 0.8;
+    }
+}
 .p{
     &-header{
-        padding-top: $padding__header;
+        padding-top: $padding__header !important;
     }
 }
 .privacy{
@@ -59,8 +117,35 @@
         @extend %bg-tmp;
     }
 }
+.services{
+    &-ext{
+        @include background-blend($bg__blend--soft, $color__bg-1);
+        @include set-background($servicesExt,0,"center","cover","scroll");        
+    }
+}
 .text{
     &-shadow{
         text-shadow: $text__shadow;
+    }
+}
+.z{
+    &-100{
+        z-index:100;
+    }
+}
+
+textarea{
+    resize: none;
+}
+
+@media all and (max-width: 767px){
+    .navbar{
+        &-collapse{
+            &.show{
+                backdrop-filter: $navbar-collapse__backdrop;
+                border: $navbar-collapse__border;
+                z-index: $navbar-collapse__zindex;
+            }
+        }
     }
 }
