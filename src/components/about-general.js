@@ -47,7 +47,7 @@ class AboutGeneral extends Component{
                     </Row>
                     <Row className="mx-auto text-center py-3 w-100">
                         <Col xs={10} className="mx-auto text-shadow text-white p-0">
-                            <p className="lead">
+                            <p className="initialism">
                                 Our detective agency is certified detective services provider with
                                 wide experience in individual and business area. We specialize in:
                                 adultery and search of missing people. There is no case we won't 

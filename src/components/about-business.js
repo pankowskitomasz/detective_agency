@@ -27,7 +27,7 @@ class AboutBusiness extends Component{
                     </Row>
                     <Row className="mx-auto text-center d-flex w-100">
                         <Col xs={8} className="mx-auto text-shadow text-white p-0">
-                            <p className="lead">
+                            <p className="initialism">
                                 Our agency provides active business intelligence services, with ethical 
                                 business standards. We provide silent audits in our customers companies 
                                 in terms of electronic safety. With us your secrets will remain secret.

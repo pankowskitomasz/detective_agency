@@ -23,7 +23,7 @@ class ServicesExt extends Component{
                             <h1 className="display-4 font-weight-bold font-logo text-center mb-4">
                                 Our Services
                             </h1>
-                            <p className="lead mb-5">
+                            <p className="initialism mb-5">
                                 Looking for someone to help protect your business? Detective Agency is here 
                                 to help corporations and small businesses across Albany, Schenectady, Troy, 
                                 Saratoga, Glens Falls and the rest of State. Whether its performing 
@@ -34,7 +34,7 @@ class ServicesExt extends Component{
                             <h5 className="font-weight-bold">
                                 Types of Investigations for Corporations
                             </h5>
-                            <ol className="lead mb-4">
+                            <ol className="initialism mb-4">
                                 <li>Pre-employment Background Investigations</li> 
                                 <li>Executive Protection</li>
                                 <li>Undercover Operations</li>
@@ -42,7 +42,7 @@ class ServicesExt extends Component{
                             <h5 className="font-weight-bold">
                                 Services Performed within Corporate Investigations
                             </h5>
-                            <ol className="lead mb-4">
+                            <ol className="initialism mb-4">
                                 <li>Criminal records</li> 
                                 <li>Education verification</li>
                                 <li>Employment history</li>
@@ -55,14 +55,14 @@ class ServicesExt extends Component{
                             <h5 className="font-weight-bold">
                                 Executive Protection
                             </h5>
-                            <p className="lead mb-3">
-                                Offers the safety of corporate personnel who may be at high risk for being 
+                            <p className="initialism mb-3">
+                                Our agency offers the safety of corporate personnel who may be at high risk for being 
                                 taken hostage or physical criminal acts taken towards them.
                             </p>
                             <h5 className="font-weight-bold">
                                 Undercover Operations
                             </h5>
-                            <p className="lead mb-3">
+                            <p className="initialism mb-3">
                                 Perform undercover ops for small business owners or corporations to reveal 
                                 what is being stolen or compromised, where the activity is taking place, 
                                 how it is being carried out and the identity of the people involved.

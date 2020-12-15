@@ -11,32 +11,37 @@ class ContactForm extends Component{
             <Container fluid className={"contact-form align-items-center p-0 py-5 bg-secondary d-flex minh-50vh "+this.props.classExt}>
                 <Row className="mx-auto text-center w-100">
                     <Col xs={10} md={6} className="mx-auto p-0 d-flex align-items-center">
-                        <Form className="text-left w-100 border border-secondary p-3 rounded bg-white shadow">
+                        <Form className="text-left w-100 border border-secondary p-4 rounded bg-white shadow text-secondary font-weight-bold">
+                            <div className="border-bottom mb-4">
+                                <p className="font-weight-bold mb-1">
+                                    Contact online
+                                </p>
+                            </div>
                             <Form.Group controlId="formFirstName">
                                 <Form.Label>First Name</Form.Label>
-                                 <Form.Control type="text" placeholder="Enter first name"/>
+                                 <Form.Control type="text" placeholder="Enter first name" className="rounded-pill"/>
                             </Form.Group>
                             <Form.Group controlId="formLastName">
                                 <Form.Label>Last Name</Form.Label>
-                                <Form.Control type="text" placeholder="Enter last name"/>
+                                <Form.Control type="text" placeholder="Enter last name" className="rounded-pill"/>
                             </Form.Group>
                             <Form.Group controlId="formEmail">
                                 <Form.Label>Email</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email"/>
+                                <Form.Control type="email" placeholder="Enter email" className="rounded-pill"/>
                             </Form.Group>
                             <Form.Group controlId="formPhone">
                                 <Form.Label>Phone</Form.Label>
-                                <Form.Control type="tel" placeholder="Enter phone"/>
+                                <Form.Control type="tel" placeholder="Enter phone" className="rounded-pill"/>
                             </Form.Group>
                             <Form.Group controlId="formMessage">
                                 <Form.Label>Message</Form.Label>
                                 <Form.Control as="textarea" rows={4} />
                             </Form.Group>
                             <div class="w-100 text-center">
-                                <Button variant="outline-dark" type="reset" className="mx-1">
+                                <Button variant="outline-dark" type="reset" className="mx-1 rounded-pill">
                                     Clear
                                 </Button>
-                                <Button variant="outline-dark" type="submit" className="mx-1">
+                                <Button variant="outline-dark" type="submit" className="mx-1 rounded-pill">
                                     Send
                                 </Button>
                             </div>
