@@ -21,7 +21,7 @@ class IndexSlider extends Component{
                                     <h1 className="display-3 font-weight-bold font-logo">
                                         Detective services
                                     </h1>
-                                    <p className="lead">
+                                    <p className="initialism">
                                         Our agency provides wide range of services for different
                                         customer groups, adjusting offers to individual needs.
                                     </p>
@@ -40,7 +40,7 @@ class IndexSlider extends Component{
                                     <h1 className="display-3 font-weight-bold font-logo">
                                         Search for missing persons
                                     </h1>
-                                    <p className="lead">
+                                    <p className="initialism">
                                         Every year many people are missing. We specialize in search
                                         of missing people.
                                     </p>

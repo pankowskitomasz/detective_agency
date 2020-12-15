@@ -28,7 +28,7 @@ class ContactData extends Component{
                             <h1 className="display-4 font-weight-bold font-logo">
                                 Contact us
                             </h1>
-                            <p className="lead">
+                            <p className="initialism">
                                 There is no case we won't take! Visit us or call us to check
                                 how we can solve your problem. Our contact phone is available 
                                 24h per day, from monday to friday.
@@ -36,15 +36,15 @@ class ContactData extends Component{
                             <p className="lead font-weight-bold">
                                 Call us now:
                             </p>
-                            <div className="lead text-center font-weight-bold mb-4">
-                                <span className="rounded-pill bg-dark d-block w-50 mx-auto">
+                            <div className="initialism text-center mb-4">
+                                <span className="rounded-pill bg-dark d-block w-50 mx-auto p-2 font-weight-bold">
                                     678 142 838
                                 </span>                                
                             </div>
                             <p className="lead font-weight-bold">
                                 Visit us:
                             </p>
-                            <address className="rounded bg-dark d-block w-50 mx-auto p-2 mb-4">
+                            <address className="rounded bg-dark d-block w-50 mx-auto p-2 mb-4 initialism">
                                 00-001 City,<br/> 
                                 Street 12A,<br/>
                                 678 142 838
