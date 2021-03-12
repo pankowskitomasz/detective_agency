@@ -9,10 +9,8 @@ class ServicesExt extends Component{
     render(){
         let linking;
         if(this.props.backLink!==undefined){
-            linking = <Link to={this.props.backLink.href}>
-                <Button variant="outline-light">
-                    {this.props.backLink.name}
-                </Button>
+            linking = <Link to={this.props.backLink.href} className="btn btn-outline-light">
+                {this.props.backLink.name}
             </Link>;
         }
         return(        
