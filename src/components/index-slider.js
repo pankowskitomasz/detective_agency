@@ -25,10 +25,8 @@ class IndexSlider extends Component{
                                         Our agency provides wide range of services for different
                                         customer groups, adjusting offers to individual needs.
                                     </p>
-                                    <Link to="/about">
-                                        <Button variant="outline-light">
-                                            About us
-                                        </Button>
+                                    <Link to="/about" className="btn btn-outline-light">
+                                        About us
                                     </Link>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -44,10 +42,8 @@ class IndexSlider extends Component{
                                         Every year many people are missing. We specialize in search
                                         of missing people.
                                     </p>
-                                    <Link to="/services">
-                                        <Button variant="outline-light">
-                                            Our Services
-                                        </Button>
+                                    <Link to="/services" className="btn btn-outline-light">
+                                        Our Services
                                     </Link>
                                 </Carousel.Caption>
                             </Carousel.Item>
